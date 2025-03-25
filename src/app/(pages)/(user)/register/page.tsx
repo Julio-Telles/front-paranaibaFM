@@ -43,21 +43,21 @@ export default function Home() {
               Por favor, preencha os dados abaixo:
             </h6>
 
-            <Text bcgColor='white' plcHolder='Nome' borderCurve={4} borderThin={1} textAlign='center' horizWidth={270} icon={<SoccerIcon />} />
+            <Text bcgColor='white' plcHolder='Nome' borderCurve={4} borderThin={1} textAlign='center' horizWidth={270}  />
 
-            <Text bcgColor='white' plcHolder='Nome Social' borderCurve={4} borderThin={1} textAlign='center' horizWidth={270} icon={<SoccerIcon />} />
+            <Text bcgColor='white' plcHolder='Nome Social' borderCurve={4} borderThin={1} textAlign='center' horizWidth={270} />
 
-            <Text bcgColor='white' plcHolder='Telefone' borderCurve={4} borderThin={1} textAlign='center' horizWidth={270} icon={<SoccerIcon />} />
+            <Text bcgColor='white' plcHolder='Telefone' borderCurve={4} borderThin={1} textAlign='center' horizWidth={270} />
             
-            <DateInput bcgColor='white' plcHolder='Data de Nascimento' borderCurve={4} borderThin={1} textAlign='center' horizWidth={270} icon={<SoccerIcon />} />
+            <DateInput bcgColor='white' plcHolder='Data de Nascimento' borderCurve={4} borderThin={1} textAlign='center' horizWidth={270} />
             
-            <Text bcgColor='white' plcHolder='Endereço' borderCurve={4} borderThin={1} textAlign='center' horizWidth={270} icon={<SoccerIcon />} />
+            <Text bcgColor='white' plcHolder='Endereço' borderCurve={4} borderThin={1} textAlign='center' horizWidth={270} />
 
-            <Email bcgColor='white' plcHolder='E-mail' borderCurve={4} borderThin={1} textAlign='center' horizWidth={270} icon={<SoccerIcon />} />
+            <Email bcgColor='white' plcHolder='E-mail' borderCurve={4} borderThin={1} textAlign='center' horizWidth={270} />
             
-            <Text bcgColor='white' plcHolder='Senha' borderCurve={4} borderThin={1} textAlign='center' horizWidth={270} icon={<SoccerIcon />} />
+            <Text bcgColor='white' plcHolder='Senha' borderCurve={4} borderThin={1} textAlign='center' horizWidth={270} />
 
-            <Text bcgColor='white' plcHolder='Confirmar Senha' borderCurve={4} borderThin={1} textAlign='center' horizWidth={270} icon={<SoccerIcon />} />
+            <Text bcgColor='white' plcHolder='Confirmar Senha' borderCurve={4} borderThin={1} textAlign='center' horizWidth={270} />
             
             
             <Stack 
