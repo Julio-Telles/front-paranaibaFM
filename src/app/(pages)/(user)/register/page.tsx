@@ -65,14 +65,14 @@ export default function Home() {
               alignItems="center"
               sx={{ width: 1, height: "7vh" }}
             >
-            
+
               <Chip
                   label="Cadastrar"
                   color="success"
                   component="a"
                   href="/sports"
                   clickable
-                  style={{background: Colors.buttonRegister}}
+                  style={{background: Colors.baseClara}}
                 />
 
               </Stack>
