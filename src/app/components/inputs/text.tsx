@@ -21,7 +21,7 @@ export default function Text({ bcgColor, plcHolder, borderCurve, borderThin, tex
     const [valid, setValid] = useState(plcHolder)
     const [cor, setCor] = useState("")
   
-    let texto = {
+    const texto = {
       cursor: 0,
       nome: "nome"
     }

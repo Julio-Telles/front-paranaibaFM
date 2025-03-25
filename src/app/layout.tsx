@@ -10,18 +10,12 @@ import CssBaseline from '@mui/material/CssBaseline';
 import IconButton from '@mui/material/IconButton';
 import Toolbar from '@mui/material/Toolbar';
 
-import { styled, alpha } from '@mui/material/styles';
-import InputBase from '@mui/material/InputBase';
-
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 
-import Menu from '@mui/material/Menu';
-import MenuItem from '@mui/material/MenuItem';
-import Chip from '@mui/material/Chip';
 import Stack from '@mui/material/Stack';
 
 import InboxIcon from '@mui/icons-material/MoveToInbox';
@@ -30,20 +24,14 @@ import MailIcon from '@mui/icons-material/Mail';
 import ProdutosIcon from '@mui/icons-material/ExtensionOutlined';
 import VendasIcon from '@mui/icons-material/PlaylistAddCheck';
 
-import SearchIcon from '@mui/icons-material/Search';
-import MoreIcon from '@mui/icons-material/MoreVert';
-
-
 import SpeedDial from '@mui/material/SpeedDial';
 import SpeedDialAction from '@mui/material/SpeedDialAction';
 
 
 {/* ------------------------------------------------------------------- */}
 {/* AppBar DO MINI PLAYER */}
-import Paper from '@mui/material/Paper';
 import Slide from '@mui/material/Slide';
 
-import Typography from '@mui/material/Typography';
 import Slider from '@mui/material/Slider';
 import PauseRounded from '@mui/icons-material/PauseRounded';
 import PlayArrowRounded from '@mui/icons-material/PlayArrowRounded';

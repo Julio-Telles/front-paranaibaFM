@@ -21,7 +21,7 @@ export default function DateInput({ bcgColor, plcHolder, borderCurve, borderThin
     const [valid, setValid] = useState(plcHolder)
     const [cor, setCor] = useState("")
   
-    let date = {
+    const date = {
       cursor: 0,
       data: "01/01/2000"
     }
@@ -63,7 +63,7 @@ export default function DateInput({ bcgColor, plcHolder, borderCurve, borderThin
           }
           else if (mes === 2) {
 
-            let isleap = (ano % 4 == 0 && (ano % 100 != 0 || ano % 400 == 0));
+            const isleap = (ano % 4 == 0 && (ano % 100 != 0 || ano % 400 == 0));
             //console.log("--->>> BISSEXTO: ", isleap)
 
             if (isleap && dia <= 29) {

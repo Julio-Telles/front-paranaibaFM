@@ -21,12 +21,12 @@ export default function Email({ bcgColor, plcHolder, borderCurve, borderThin, te
     const [valid, setValid] = useState(plcHolder)
     const [cor, setCor] = useState("")
   
-    let texto = {
+    const texto = {
       cursor: 0,
       nome: "nome"
     }
   
-    function emailFormatter(value: string, position: number) {      
+    function emailFormatter(value: string) {      
       let valida = new Boolean(false)
 
       //const letra = value.charCodeAt(position-1)
