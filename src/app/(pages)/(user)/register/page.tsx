@@ -7,8 +7,6 @@ import Stack from '@mui/material/Stack';
 import background from "@/app/images/background-registro.jpg";
 import Colors from '@/app/utils/colors';
 
-import SoccerIcon from '@mui/icons-material/SportsSoccerOutlined';
-
 import Text from '@/app/components/inputs/text';
 import DateInput from '@/app/components/inputs/dateInput';
 import Email from '@/app/components/inputs/email';
@@ -67,10 +65,7 @@ export default function Home() {
               alignItems="center"
               sx={{ width: 1, height: "7vh" }}
             >
-              {/*
-              <a href='/forgot-pass'>Esqueci minha senha</a>
-              */}
-
+            
               <Chip
                   label="Cadastrar"
                   color="success"
