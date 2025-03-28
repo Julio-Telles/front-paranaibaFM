@@ -136,7 +136,7 @@ export default function Home() {
                   component="a"
                   href="/sports"
                   clickable
-                  style={{background: Colors.buttonRegister}}
+                  style={{background: Colors.botaoDrawer}}
                 />
 
               </Stack>
