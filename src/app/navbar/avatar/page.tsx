@@ -38,8 +38,8 @@ const poppins = Poppins({
 });
 {/* ------------------------------------------------------------------- */}
 
-type ItemProps = {
-  completeName: string;
+interface ItemProps {
+  fullName: string;
   picture: string;
 }
 
@@ -47,7 +47,7 @@ type ItemProps = {
 const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
 
 
-export default function FallbackAvatars( { completeName , picture }: ItemProps ) {
+export default function FallbackAvatars( { fullName , picture }: ItemProps ) {
     
   const [show, setShow] = React.useState(false);
 
@@ -67,8 +67,8 @@ export default function FallbackAvatars( { completeName , picture }: ItemProps )
     <>
 
       <Avatar
-        {...firstLetters(completeName)}
-        //alt={completeName} //SÓ MOSTRA A 1ª LETRA
+        {...firstLetters(fullName)}
+        //alt={fullName} //SÓ MOSTRA A 1ª LETRA
         src={picture}
         onClick={handleShow}
         sx={{
