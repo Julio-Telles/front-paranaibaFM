@@ -104,12 +104,13 @@ export default function DateInput({ bcgColor, plcHolder, borderCurve, borderThin
     <>
       <input  //type='tel'
               type='string'
-              id='phone'
+              autoComplete="given-name"
+              id={identity}
               name='phone'
               ref={schedule}
               placeholder={plcHolder}
               value={sched}
-              style={{background: `${bcgColor}`, borderRadius: borderCurve, borderWidth: borderThin, width: horizWidth }}
+              style={{background: `${bcgColor}`, borderRadius: borderCurve, borderWidth: borderThin, width: horizWidth, height: vertHeight }}
               onChange={(e) => 
                 {
                   dateFormatter(e.target.value, Number(e.target.selectionStart))
