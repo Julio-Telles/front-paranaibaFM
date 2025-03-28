@@ -11,11 +11,13 @@ type ItemProps = {
   borderCurve: number;
   borderThin: number;
   textAlign: string;
-  horizWidth: number;
+  horizWidth: number | string;
+  vertHeight: number | string;
+  identity: string;
   //icon: any;
 }
 
-export default function Email({ bcgColor, plcHolder, borderCurve, borderThin, textAlign, horizWidth }: ItemProps) {
+export default function Email({ bcgColor, plcHolder, borderCurve, borderThin, textAlign, horizWidth, vertHeight, identity }: ItemProps) {
     const birth = useRef<HTMLInputElement>(null)
     const [text, setText] = useState("")
     const [valid, setValid] = useState(plcHolder)
@@ -69,15 +71,16 @@ export default function Email({ bcgColor, plcHolder, borderCurve, borderThin, te
     <>
       <input  //type='tel'
               type='string'
-              id='text'
+              autoComplete="given-name"
+              id={identity}
               name='text'
               ref={birth}
               placeholder={plcHolder}
               value={text}
-              style={{background: `${bcgColor}`, borderRadius: borderCurve, borderWidth: borderThin, width: horizWidth }}
+              style={{background: `${bcgColor}`, borderRadius: borderCurve, borderWidth: borderThin, width: horizWidth, height: vertHeight }}
               onChange={(e) => 
                 {
-                  emailFormatter(e.target.value)
+                  emailFormatter(e.target.value, Number(e.target.selectionStart))
                   e.target.value = texto.nome
                   //console.log("--->>> VALOR = ", e.target.value)
                   setText(e.target.value)

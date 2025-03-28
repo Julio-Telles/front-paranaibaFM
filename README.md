@@ -8,10 +8,10 @@ As seguintes dependências foram instaladas no projeto:
 - [npm install @mui/material @emotion/react @emotion/styled](https://mui.com/material-ui/)
 - [npm i @mui/icons-material](https://www.npmjs.com/package/@mui/icons-material)
 - [npm install react-bootstrap bootstrap](https://react-bootstrap.netlify.app/docs/getting-started/introduction)
-- [npm i zod](https://zod.dev/?id=from-npm)
 - [npm i zustand](https://zustand.docs.pmnd.rs/getting-started/introduction)
 - [npm i --save @fortawesome/fontawesome-svg-core](https://docs.fontawesome.com/web/use-with/react)
-- [npm i react-ionicons](https://www.npmjs.com/package/react-ionicons)
+- [npm i --save @fortawesome/fontawesome-svg-core @fortawesome/free-regular-svg-icons @fortawesome/react-fontawesome](https://docs.fontawesome.com/web/use-with/react)
+- [npm i --save @fortawesome/fontawesome-svg-core @fortawesome/free-brands-svg-icons @fortawesome/react-fontawesome](https://docs.fontawesome.com/web/use-with/react)
 - [npm i react-use-audio-player](https://www.npmjs.com/package/react-use-audio-player)
 
 
@@ -28,8 +28,8 @@ Entre no endereço [http://localhost:3000](http://localhost:3000) com o seu nave
 ## PARA NAVEGAR ENTRE AS PÁGINAS
 
 basta adicionar o diretório da página que deseja abrir:
-+ http://localhost:3000/produtos -> para abrir a página de produtos
-+ http://localhost:3000/vendas -> para abrir a página de vendas
++ http://localhost:3000/home -> para abrir a página Home
++ http://localhost:3000/vendas -> para abrir a página de registro/cadastro de usuário
 
 ## REPOSITÓRIO PARA DEPLOY DO PROJETO
 
