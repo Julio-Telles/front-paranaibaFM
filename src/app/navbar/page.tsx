@@ -309,7 +309,7 @@ const renderDesktopMenu = (
 
           <PlayerRadio />
 
-          <FallbackAvatars  fullName='Julio Telles' picture='https://i.postimg.cc/pT9jqvFb/AI-photo.png'/>
+          <FallbackAvatars /> {/*  fullName='Julio Telles' picture='https://i.postimg.cc/pT9jqvFb/AI-photo.png'/>
 {/**/}
 
           </Stack>
