@@ -9,8 +9,6 @@ import Stack from '@mui/material/Stack';
 import background from "@/images/background-registro.jpg";
 import Colors from '@/utils/colors';
 
-import SoccerIcon from '@mui/icons-material/SportsSoccerOutlined';
-
 import Text from '@/components/inputs/text';
 import DateInput from '@/components/inputs/dateInput';
 import Email from '@/components/inputs/email';
@@ -104,21 +102,21 @@ export default function Home() {
               Por favor, preencha os dados abaixo:
             </h6>
 
-            <Text bcgColor='white' plcHolder='Nome' borderCurve={4} borderThin={1} textAlign='center' horizWidth={270} icon={<SoccerIcon />} />
+            <Text bcgColor='white' plcHolder='Nome' borderCurve={4} borderThin={1} textAlign='center' horizWidth={270} vertHeight={30} identity='passLogin' />
 
-            <Text bcgColor='white' plcHolder='Nome Social' borderCurve={4} borderThin={1} textAlign='center' horizWidth={270} icon={<SoccerIcon />} />
+            <Text bcgColor='white' plcHolder='Nome Social' borderCurve={4} borderThin={1} textAlign='center' horizWidth={270} vertHeight={30} identity='passLogin' />
 
-            <Text bcgColor='white' plcHolder='Telefone' borderCurve={4} borderThin={1} textAlign='center' horizWidth={270} icon={<SoccerIcon />} />
+            <Text bcgColor='white' plcHolder='Telefone' borderCurve={4} borderThin={1} textAlign='center' horizWidth={270} vertHeight={30} identity='passLogin' />
             
-            <DateInput bcgColor='white' plcHolder='Data de Nascimento' borderCurve={4} borderThin={1} textAlign='center' horizWidth={270} icon={<SoccerIcon />} />
+            <DateInput bcgColor='white' plcHolder='Data de Nascimento' borderCurve={4} borderThin={1} textAlign='center' horizWidth={270} vertHeight={30} identity='passLogin' />
             
-            <Text bcgColor='white' plcHolder='Endereço' borderCurve={4} borderThin={1} textAlign='center' horizWidth={270} icon={<SoccerIcon />} />
+            <Text bcgColor='white' plcHolder='Endereço' borderCurve={4} borderThin={1} textAlign='center' horizWidth={270} vertHeight={30} identity='passLogin' />
 
-            <Email bcgColor='white' plcHolder='E-mail' borderCurve={4} borderThin={1} textAlign='center' horizWidth={270} icon={<SoccerIcon />} />
+            <Email bcgColor='white' plcHolder='E-mail' borderCurve={4} borderThin={1} textAlign='center' horizWidth={270} vertHeight={30} identity='passLogin' />
             
-            <Text bcgColor='white' plcHolder='Senha' borderCurve={4} borderThin={1} textAlign='center' horizWidth={270} icon={<SoccerIcon />} />
+            <Text bcgColor='white' plcHolder='Senha' borderCurve={4} borderThin={1} textAlign='center' horizWidth={270} vertHeight={30} identity='passLogin' />
 
-            <Text bcgColor='white' plcHolder='Confirmar Senha' borderCurve={4} borderThin={1} textAlign='center' horizWidth={270} icon={<SoccerIcon />} />
+            <Text bcgColor='white' plcHolder='Confirmar Senha' borderCurve={4} borderThin={1} textAlign='center' horizWidth={270} vertHeight={30} identity='passLogin' />
             
             
             <Stack 

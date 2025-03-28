@@ -11,11 +11,13 @@ type ItemProps = {
   borderCurve: number;
   borderThin: number;
   textAlign: string;
-  horizWidth: number;
+  horizWidth: number | string;
+  vertHeight: number | string;
+  identity: string;
   //icon: any;
 }
 
-export default function DateInput({ bcgColor, plcHolder, borderCurve, borderThin, textAlign, horizWidth }: ItemProps) {
+export default function DateInput({ bcgColor, plcHolder, borderCurve, borderThin, textAlign, horizWidth, vertHeight, identity }: ItemProps) {
     const schedule = useRef<HTMLInputElement>(null)
     const [sched, setNasc] = useState("")
     const [valid, setValid] = useState(plcHolder)
