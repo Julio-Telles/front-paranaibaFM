@@ -80,7 +80,7 @@ export default function Email({ bcgColor, plcHolder, borderCurve, borderThin, te
               style={{background: `${bcgColor}`, borderRadius: borderCurve, borderWidth: borderThin, width: horizWidth, height: vertHeight }}
               onChange={(e) => 
                 {
-                  emailFormatter(e.target.value, Number(e.target.selectionStart))
+                  emailFormatter(e.target.value)
                   e.target.value = texto.nome
                   //console.log("--->>> VALOR = ", e.target.value)
                   setText(e.target.value)
